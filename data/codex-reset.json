@@ -1,105 +1,501 @@
 {
-  "updatedAt": "2026-10-31T10:00:00.000Z",
+  "updatedAt": "2026-10-31T15:00:25.000Z",
   "pending": true,
-  "pendingNote": "Tibo 已预告额度重置，等待生效确认（假数据）",
-  "lastConfirmedAt": "2026-10-24T18:30:00.000Z",
-  "lastConfirmedDate": "2026-10-24",
+  "pendingNote": "Tibo 已预告发放重置卡（北京时间预计 11月2日 13:42 前）",
+  "lastConfirmedAt": "2026-10-28T06:29:38.000Z",
+  "lastConfirmedDate": "2026-10-28",
   "metrics": {
-    "resets90d": 6,
-    "cards90d": 3,
-    "medianIntervalDays": 12,
-    "lastResetDate": "2026-10-24"
+    "resets90d": 24,
+    "cards90d": 9,
+    "medianIntervalDays": 2,
+    "lastResetDate": "2026-10-28"
   },
   "events": [
     {
-      "id": "evt-2026-10-31",
+      "id": "banked-2116405414921384099-1-1",
       "date": "2026-10-31",
+      "kind": "reset_card",
+      "status": "pending",
+      "summaryZh": "Tibo 预告将发放重置卡",
+      "postExcerpt": "Next two days will be resets… banked… do with this what you may 👀.",
+      "postedAt": "2026-10-31T05:42:26.000Z"
+    },
+    {
+      "id": "reset-2115273064481218829-1-1",
+      "date": "2026-10-28",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "And it's done.",
+      "postedAt": "2026-10-28T06:29:38.000Z"
+    },
+    {
+      "id": "reset-2114588174249071102-1-1",
+      "date": "2026-10-26",
       "kind": "quota_reset",
       "status": "pending",
-      "summaryZh": "预告：即将进行额度重置（待确认）",
-      "postExcerpt": "Heads up — planning a Codex usage reset soon. Will confirm when live.",
-      "postedAt": "2026-10-31T01:20:00.000Z"
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "But today is a reset.",
+      "postedAt": "2026-10-26T05:21:22.000Z"
     },
     {
-      "id": "evt-2026-10-24",
-      "date": "2026-10-24",
+      "id": "reset-2114200291319124163-1-1",
+      "date": "2026-10-25",
       "kind": "quota_reset",
       "status": "confirmed",
-      "summaryZh": "已确认：额度重置完成",
-      "postExcerpt": "Codex usage limits have been reset. You should be good to go.",
-      "postedAt": "2026-10-24T18:30:00.000Z"
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "It is all propagated.",
+      "postedAt": "2026-10-25T06:06:16.000Z"
     },
     {
-      "id": "evt-2026-10-18",
+      "id": "reset-2113492502355562875-1-1",
+      "date": "2026-10-23",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Landing tomorrow before 10am PST together with a small ship.",
+      "postedAt": "2026-10-23T04:47:34.000Z"
+    },
+    {
+      "id": "reset-2113162277688070445-1-1",
+      "date": "2026-10-22",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Lands tomorrow before 10am PST.",
+      "postedAt": "2026-10-22T06:55:54.000Z"
+    },
+    {
+      "id": "reset-2112432076767289678-1-1",
+      "date": "2026-10-20",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Nevermind, we're still cooking... and reset. Enjoy.",
+      "postedAt": "2026-10-20T06:33:48.000Z"
+    },
+    {
+      "id": "reset-2111492738025959922-1-1",
       "date": "2026-10-18",
-      "kind": "reset_card",
-      "status": "confirmed",
-      "summaryZh": "发放重置卡（假数据）",
-      "postExcerpt": "Dropping some Codex reset cards for eligible users.",
-      "postedAt": "2026-10-18T16:05:00.000Z"
-    },
-    {
-      "id": "evt-2026-10-12",
-      "date": "2026-10-12",
       "kind": "quota_reset",
       "status": "confirmed",
-      "summaryZh": "已确认：额度重置完成",
-      "postExcerpt": "Usage reset is live.",
-      "postedAt": "2026-10-12T20:10:00.000Z"
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Landing sometime today by EOD PST",
+      "postedAt": "2026-10-17T16:21:13.000Z"
     },
     {
-      "id": "evt-2026-09-28",
-      "date": "2026-09-28",
+      "id": "reset-2110595484180214059-1-1",
+      "date": "2026-10-15",
       "kind": "quota_reset",
       "status": "confirmed",
-      "summaryZh": "已确认：额度重置完成",
-      "postExcerpt": "Codex quotas refreshed.",
-      "postedAt": "2026-09-28T17:40:00.000Z"
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Done and dusted",
+      "postedAt": "2026-10-15T06:28:13.000Z"
     },
     {
-      "id": "evt-2026-09-20",
-      "date": "2026-09-20",
-      "kind": "reset_card",
+      "id": "reset-2109812216212099456-1-1",
+      "date": "2026-10-13",
+      "kind": "quota_reset",
       "status": "confirmed",
-      "summaryZh": "发放重置卡（假数据）",
-      "postExcerpt": "A few more reset cards going out.",
-      "postedAt": "2026-09-20T15:00:00.000Z"
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "What would you like with your side of reset? It's done.",
+      "postedAt": "2026-10-13T05:06:06.000Z"
     },
     {
-      "id": "evt-2026-09-10",
+      "id": "reset-2107676072871600470-1-1",
+      "date": "2026-10-07",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Therefore ... the reset has been processed. Enjoy!",
+      "postedAt": "2026-10-07T03:35:09.000Z"
+    },
+    {
+      "id": "reset-2106239435461579088-1-1",
+      "date": "2026-10-03",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "All fixed.",
+      "postedAt": "2026-10-03T04:26:28.000Z"
+    },
+    {
+      "id": "reset-2098612714704891959-1-1",
+      "date": "2026-09-12",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Reset all propagated.",
+      "postedAt": "2026-09-12T08:09:17.000Z"
+    },
+    {
+      "id": "reset-2092316228497063958-1-1",
+      "date": "2026-08-26",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Not so random, but yes",
+      "postedAt": "2026-08-25T18:20:36.000Z"
+    },
+    {
+      "id": "reset-2087706104814023111-1-1",
+      "date": "2026-08-13",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Enjoy a nice reset everyone. Landing in the next hour or so",
+      "postedAt": "2026-08-13T01:01:37.000Z"
+    },
+    {
+      "id": "reset-2077607697487188198-1-1",
+      "date": "2026-07-16",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Another reset for our Codex and ChatGPT Work users.",
+      "postedAt": "2026-07-16T04:14:09.000Z"
+    },
+    {
+      "id": "banked-2097752790177370535-1-1",
       "date": "2026-09-10",
-      "kind": "quota_reset",
-      "status": "confirmed",
-      "summaryZh": "已确认：额度重置完成",
-      "postExcerpt": "Reset complete for Codex usage.",
-      "postedAt": "2026-09-10T19:22:00.000Z"
-    },
-    {
-      "id": "evt-2026-08-29",
-      "date": "2026-08-29",
-      "kind": "quota_reset",
-      "status": "confirmed",
-      "summaryZh": "已确认：额度重置完成",
-      "postExcerpt": "Usage limits reset.",
-      "postedAt": "2026-08-29T21:05:00.000Z"
-    },
-    {
-      "id": "evt-2026-08-15",
-      "date": "2026-08-15",
       "kind": "reset_card",
       "status": "confirmed",
-      "summaryZh": "发放重置卡（假数据）",
-      "postExcerpt": "Reset cards available — check your account.",
-      "postedAt": "2026-08-15T14:30:00.000Z"
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "Everyone who used one in the affected time window is getting another one",
+      "postedAt": "2026-09-09T18:23:34.000Z"
     },
     {
-      "id": "evt-2026-08-05",
-      "date": "2026-08-05",
+      "id": "reset-2109045392684032299-1-1",
+      "date": "2026-10-11",
       "kind": "quota_reset",
       "status": "confirmed",
-      "summaryZh": "已确认：额度重置完成",
-      "postExcerpt": "Codex reset is done.",
-      "postedAt": "2026-08-05T18:00:00.000Z"
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Put the reset in the bag. All propagated.",
+      "postedAt": "2026-10-11T04:01:09.000Z"
+    },
+    {
+      "id": "banked-2107913674593644711-1-1",
+      "date": "2026-10-08",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "Confirmed landed across all accounts.",
+      "postedAt": "2026-10-08T03:44:55.000Z"
+    },
+    {
+      "id": "reset-2105843926221660585-1-1",
+      "date": "2026-10-03",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Reset all propagated. Enjoy.",
+      "postedAt": "2026-10-02T21:18:48.000Z"
+    },
+    {
+      "id": "banked-2105173168281506088-1-1",
+      "date": "2026-09-30",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "Yes, check email",
+      "postedAt": "2026-09-30T05:49:30.000Z"
+    },
+    {
+      "id": "reset-2103963215885701493-1-1",
+      "date": "2026-09-30",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "More resets coming next week",
+      "postedAt": "2026-09-26T21:41:35.000Z"
+    },
+    {
+      "id": "reset-2103637477760311522-1-1",
+      "date": "2026-09-27",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Resets all propagated.",
+      "postedAt": "2026-09-26T18:17:54.000Z"
+    },
+    {
+      "id": "banked-2101352781219258527-1-1",
+      "date": "2026-09-23",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "We are loading a banked reset into all accounts of our Plus, Pro and Business users.",
+      "postedAt": "2026-09-22T18:23:37.000Z"
+    },
+    {
+      "id": "banked-2095651088502591861-1-1",
+      "date": "2026-09-04",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.",
+      "postedAt": "2026-09-03T23:12:09.000Z"
+    },
+    {
+      "id": "banked-2095979536043401428-1-1",
+      "date": "2026-09-05",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day.",
+      "postedAt": "2026-09-05T00:39:25.000Z"
+    },
+    {
+      "id": "reset-2097043464538264003-1-1",
+      "date": "2026-09-08",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "All reset for everyone.",
+      "postedAt": "2026-09-08T04:05:53.000Z"
+    },
+    {
+      "id": "reset-2094143054039183573-1-1",
+      "date": "2026-08-31",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "we have now reset usage for all paid subscriptions for ChatGPT Work and Codex.",
+      "postedAt": "2026-08-31T02:34:27.000Z"
+    },
+    {
+      "id": "reset-2093801758665715784-1-1",
+      "date": "2026-08-30",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Landing 2:30pm PST",
+      "postedAt": "2026-08-29T20:43:53.000Z"
+    },
+    {
+      "id": "reset-2093014447833116908-1-1",
+      "date": "2026-08-28",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Brand new me and brand new usage for all ChatGPT Work and Codex users.",
+      "postedAt": "2026-08-27T16:35:05.000Z"
+    },
+    {
+      "id": "reset-2091407991736332689-1-1",
+      "date": "2026-08-24",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Reset has been propagated to accounts",
+      "postedAt": "2026-08-24T00:46:51.000Z"
+    },
+    {
+      "id": "banked-2090766694897619318-1-1",
+      "date": "2026-08-22",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "The banked reset has landed, I repeat, the banked reset has landed.",
+      "postedAt": "2026-08-22T00:50:36.000Z"
+    },
+    {
+      "id": "reset-2086189414292865249-1-1",
+      "date": "2026-08-11",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Usage limits have been reset for all paid ChatGPT Work and Codex users.",
+      "postedAt": "2026-08-11T00:28:16.000Z"
+    },
+    {
+      "id": "reset-2086188036493344823-1-1",
+      "date": "2026-08-09",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "I have reset usage limits for all paid users of ChatGPT Work and Codex.",
+      "postedAt": "2026-08-08T20:29:22.000Z"
+    },
+    {
+      "id": "reset-2083395449814229287-1-1",
+      "date": "2026-08-01",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "I have reset usage limits for Codex and ChatGPT Work.",
+      "postedAt": "2026-08-01T03:32:37.000Z"
+    },
+    {
+      "id": "reset-2082317452755751098-1-1",
+      "date": "2026-07-29",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "back to 100%!",
+      "postedAt": "2026-07-29T05:42:35.000Z"
+    },
+    {
+      "id": "reset-2081940052154933696-1-1",
+      "date": "2026-07-28",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "The usage limits have been reset for all paid users of Codex and ChatGPT Work.",
+      "postedAt": "2026-07-28T03:09:23.000Z"
+    },
+    {
+      "id": "reset-2081096447718723984-1-1",
+      "date": "2026-07-26",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "We have reset usage limits for all Codex and ChatGPT Work users.",
+      "postedAt": "2026-07-25T19:17:12.000Z"
+    },
+    {
+      "id": "reset-2079609157934886975-1-1",
+      "date": "2026-07-22",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "New day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour.",
+      "postedAt": "2026-07-21T16:47:15.000Z"
+    },
+    {
+      "id": "reset-2078320950488297917-1-1",
+      "date": "2026-07-18",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "And now 100%",
+      "postedAt": "2026-07-18T03:58:44.000Z"
+    },
+    {
+      "id": "reset-2077114635308986427-1-1",
+      "date": "2026-07-15",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "We are once again resetting the usage limits for all.",
+      "postedAt": "2026-07-14T19:34:54.000Z"
+    },
+    {
+      "id": "banked-2076418567143408112-2-1",
+      "date": "2026-07-14",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "We have added a banked reset to everyone's account to celebrate the milestone.",
+      "postedAt": "2026-07-13T18:29:31.000Z"
+    },
+    {
+      "id": "banked-2076418567143408112-1-1",
+      "date": "2026-07-13",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "Added a banked reset to 500k users of ChatGPT Work and Codex.",
+      "postedAt": "2026-07-12T21:28:59.000Z"
+    },
+    {
+      "id": "reset-2076365965915467978-1-1",
+      "date": "2026-07-13",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "We hit 6M active users, and are landing a usage reset in the next hour",
+      "postedAt": "2026-07-12T17:59:57.000Z"
+    },
+    {
+      "id": "reset-2075452680760443190-1-2",
+      "date": "2026-07-11",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "We applied the resets automatically",
+      "postedAt": "2026-07-11T14:51:08.000Z"
+    },
+    {
+      "id": "reset-2075452680760443190-1-1",
+      "date": "2026-07-11",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "We have reset usage limits across Codex and ChatGPT Work.",
+      "postedAt": "2026-07-10T17:59:43.000Z"
+    },
+    {
+      "id": "reset-2075296200761418073-1-1",
+      "date": "2026-07-10",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour.",
+      "postedAt": "2026-07-09T21:24:11.000Z"
+    },
+    {
+      "id": "banked-2072608196993188002-1-1",
+      "date": "2026-07-02",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "Should be in your little piggy bank. It is for everyone.",
+      "postedAt": "2026-07-02T09:07:56.000Z"
+    },
+    {
+      "id": "banked-2071383430634344902-1-1",
+      "date": "2026-06-29",
+      "kind": "reset_card",
+      "status": "pending",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "we will credit one additional reset into your bank for your own usage over the next 24 hours",
+      "postedAt": "2026-06-29T23:39:41.000Z"
+    },
+    {
+      "id": "reset-2071740419030053227-1-1",
+      "date": "2026-06-30",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Codex usage limits will be fully reset again in the next hour",
+      "postedAt": "2026-06-29T23:39:41.000Z"
+    },
+    {
+      "id": "reset-2071381664853319742-1-1",
+      "date": "2026-06-29",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "I have reset everyone's Codex usage limits.",
+      "postedAt": "2026-06-28T23:54:07.000Z"
+    },
+    {
+      "id": "reset-2070653282440405046-1-1",
+      "date": "2026-06-28",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "Still did reset the usage because we can, but we can't find anything that is broken here.",
+      "postedAt": "2026-06-27T21:47:54.000Z"
+    },
+    {
+      "id": "banked-2067399435009622521-2-1",
+      "date": "2026-06-18",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡已发放",
+      "postExcerpt": "But you are also getting one into the reset bank to use at your own leisure.",
+      "postedAt": "2026-06-18T00:10:10.000Z"
+    },
+    {
+      "id": "reset-2066956441173323943-1-1",
+      "date": "2026-06-18",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "Codex 额度重置已完成",
+      "postExcerpt": "We did a sneaky double reset. Not only do you get a full reset on us.",
+      "postedAt": "2026-06-18T00:10:10.000Z"
     }
   ]
 }
