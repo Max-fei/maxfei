@@ -1,0 +1,105 @@
+{
+  "updatedAt": "2026-10-31T10:00:00.000Z",
+  "pending": true,
+  "pendingNote": "Tibo 已预告额度重置，等待生效确认（假数据）",
+  "lastConfirmedAt": "2026-10-24T18:30:00.000Z",
+  "lastConfirmedDate": "2026-10-24",
+  "metrics": {
+    "resets90d": 6,
+    "cards90d": 3,
+    "medianIntervalDays": 12,
+    "lastResetDate": "2026-10-24"
+  },
+  "events": [
+    {
+      "id": "evt-2026-10-31",
+      "date": "2026-10-31",
+      "kind": "quota_reset",
+      "status": "pending",
+      "summaryZh": "预告：即将进行额度重置（待确认）",
+      "postExcerpt": "Heads up — planning a Codex usage reset soon. Will confirm when live.",
+      "postedAt": "2026-10-31T01:20:00.000Z"
+    },
+    {
+      "id": "evt-2026-10-24",
+      "date": "2026-10-24",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "已确认：额度重置完成",
+      "postExcerpt": "Codex usage limits have been reset. You should be good to go.",
+      "postedAt": "2026-10-24T18:30:00.000Z"
+    },
+    {
+      "id": "evt-2026-10-18",
+      "date": "2026-10-18",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "发放重置卡（假数据）",
+      "postExcerpt": "Dropping some Codex reset cards for eligible users.",
+      "postedAt": "2026-10-18T16:05:00.000Z"
+    },
+    {
+      "id": "evt-2026-10-12",
+      "date": "2026-10-12",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "已确认：额度重置完成",
+      "postExcerpt": "Usage reset is live.",
+      "postedAt": "2026-10-12T20:10:00.000Z"
+    },
+    {
+      "id": "evt-2026-09-28",
+      "date": "2026-09-28",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "已确认：额度重置完成",
+      "postExcerpt": "Codex quotas refreshed.",
+      "postedAt": "2026-09-28T17:40:00.000Z"
+    },
+    {
+      "id": "evt-2026-09-20",
+      "date": "2026-09-20",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "发放重置卡（假数据）",
+      "postExcerpt": "A few more reset cards going out.",
+      "postedAt": "2026-09-20T15:00:00.000Z"
+    },
+    {
+      "id": "evt-2026-09-10",
+      "date": "2026-09-10",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "已确认：额度重置完成",
+      "postExcerpt": "Reset complete for Codex usage.",
+      "postedAt": "2026-09-10T19:22:00.000Z"
+    },
+    {
+      "id": "evt-2026-08-29",
+      "date": "2026-08-29",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "已确认：额度重置完成",
+      "postExcerpt": "Usage limits reset.",
+      "postedAt": "2026-08-29T21:05:00.000Z"
+    },
+    {
+      "id": "evt-2026-08-15",
+      "date": "2026-08-15",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "发放重置卡（假数据）",
+      "postExcerpt": "Reset cards available — check your account.",
+      "postedAt": "2026-08-15T14:30:00.000Z"
+    },
+    {
+      "id": "evt-2026-08-05",
+      "date": "2026-08-05",
+      "kind": "quota_reset",
+      "status": "confirmed",
+      "summaryZh": "已确认：额度重置完成",
+      "postExcerpt": "Codex reset is done.",
+      "postedAt": "2026-08-05T18:00:00.000Z"
+    }
+  ]
+}
