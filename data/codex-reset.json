@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-31T15:00:25.000Z",
+  "updatedAt": "2026-11-01T06:39:26.000Z",
   "pending": true,
-  "pendingNote": "Tibo 已预告发放重置卡（北京时间预计 11月2日 13:42 前）",
-  "lastConfirmedAt": "2026-10-28T06:29:38.000Z",
-  "lastConfirmedDate": "2026-10-28",
+  "pendingNote": "Tibo 已确认 Banked 1/2（上海时间 11月1日 08:43），还差 2/2；原预告窗口到 11月2日约 14:42",
+  "lastConfirmedAt": "2026-11-01T00:43:20.000Z",
+  "lastConfirmedDate": "2026-11-01",
   "metrics": {
     "resets90d": 24,
     "cards90d": 9,
@@ -12,11 +12,20 @@
   },
   "events": [
     {
+      "id": "banked-2116692529970311254-1-1",
+      "date": "2026-11-01",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "重置卡 Banked 1/2 已到账",
+      "postExcerpt": "Banked 1/2",
+      "postedAt": "2026-11-01T00:43:20.000Z"
+    },
+    {
       "id": "banked-2116405414921384099-1-1",
       "date": "2026-10-31",
       "kind": "reset_card",
       "status": "pending",
-      "summaryZh": "Tibo 预告将发放重置卡",
+      "summaryZh": "Tibo 预告发放重置卡（已完成 1/2，待 2/2）",
       "postExcerpt": "Next two days will be resets… banked… do with this what you may 👀.",
       "postedAt": "2026-10-31T05:42:26.000Z"
     },
