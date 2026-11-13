@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-13T00:02:47.000Z",
-  "pending": true,
-  "pendingNote": "Tibo 已确认 banked reset 已激活、即将到账；周四额度重置仍仅有预告，尚未确认",
+  "updatedAt": "2026-11-13T08:09:57.000Z",
+  "pending": false,
+  "pendingNote": null,
   "lastConfirmedAt": "2026-10-28T06:29:38.000Z",
   "lastConfirmedDate": "2026-10-28",
   "metrics": {
@@ -24,8 +24,8 @@
       "id": "reset-2120410480204525936",
       "date": "2026-11-12",
       "kind": "quota_reset",
-      "status": "pending",
-      "summaryZh": "预告：周四可能额度重置（未见确认）",
+      "status": "overdue",
+      "summaryZh": "逾期未确认：额度重置（仅有预告帖，未见确认）",
       "postExcerpt": "Thursday is feeling codexy to me.",
       "postedAt": "2026-11-11T06:57:08.000Z"
     },
