@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-11T07:06:08.000Z",
+  "updatedAt": "2026-11-13T00:02:47.000Z",
   "pending": true,
-  "pendingNote": "Tibo 预告周四（11月12日）可能做额度重置，并提到也许同时发放 banked reset；目前仅有预告，尚未确认",
+  "pendingNote": "Tibo 已确认 banked reset 已激活、即将到账；周四额度重置仍仅有预告，尚未确认",
   "lastConfirmedAt": "2026-10-28T06:29:38.000Z",
   "lastConfirmedDate": "2026-10-28",
   "metrics": {
     "resets90d": 11,
-    "cards90d": 2,
+    "cards90d": 3,
     "medianIntervalDays": 2,
     "lastResetDate": "2026-10-28"
   },
@@ -15,10 +15,10 @@
       "id": "banked-2120410480204525936",
       "date": "2026-11-12",
       "kind": "reset_card",
-      "status": "pending",
-      "summaryZh": "预告：周四可能发放重置卡（banked reset，未见确认）",
-      "postExcerpt": "Perhaps also a good time for a banked reset.",
-      "postedAt": "2026-11-11T06:57:08.000Z"
+      "status": "confirmed",
+      "summaryZh": "已确认：重置卡已发放（banked reset 已激活，即将到账）",
+      "postExcerpt": "the banked reset has been activated and should land in everyones accounts sometime soon!",
+      "postedAt": "2026-11-12T21:59:39.000Z"
     },
     {
       "id": "reset-2120410480204525936",
