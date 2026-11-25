@@ -1,16 +1,25 @@
 {
-  "updatedAt": "2026-11-13T08:09:57.000Z",
+  "updatedAt": "2026-11-25T00:13:59.000Z",
   "pending": false,
   "pendingNote": null,
   "lastConfirmedAt": "2026-10-28T06:29:38.000Z",
   "lastConfirmedDate": "2026-10-28",
   "metrics": {
     "resets90d": 11,
-    "cards90d": 3,
+    "cards90d": 4,
     "medianIntervalDays": 2,
     "lastResetDate": "2026-10-28"
   },
   "events": [
+    {
+      "id": "banked-2125299248782778588",
+      "date": "2026-11-24",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "已确认：ChatGPT Business 团队获发放重置卡（另提供免费 fast mode 至 12 月 31 日）",
+      "postExcerpt": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+      "postedAt": "2026-11-24T18:43:21.000Z"
+    },
     {
       "id": "banked-2120410480204525936",
       "date": "2026-11-12",
