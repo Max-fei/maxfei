@@ -1,16 +1,25 @@
 {
-  "updatedAt": "2026-11-25T00:13:59.000Z",
+  "updatedAt": "2026-11-26T07:41:16.000Z",
   "pending": false,
   "pendingNote": null,
   "lastConfirmedAt": "2026-10-28T06:29:38.000Z",
   "lastConfirmedDate": "2026-10-28",
   "metrics": {
     "resets90d": 11,
-    "cards90d": 4,
+    "cards90d": 5,
     "medianIntervalDays": 2,
     "lastResetDate": "2026-10-28"
   },
   "events": [
+    {
+      "id": "banked-2125853628250599730",
+      "date": "2026-11-26",
+      "kind": "reset_card",
+      "status": "confirmed",
+      "summaryZh": "已确认：重置卡已上线",
+      "postExcerpt": "Banked reset is online",
+      "postedAt": "2026-11-26T07:26:16.000Z"
+    },
     {
       "id": "banked-2125299248782778588",
       "date": "2026-11-24",
